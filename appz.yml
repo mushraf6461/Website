@@ -31,13 +31,13 @@ volumes:
 
 properties:
   MYSQL_HOST : "mysql-5-7:3306"
-  MYSQL_DATABASE : "ecloudcontrol_com_v3"
+  MYSQL_DATABASE : "ecloudcontrol_com_v4"
   MYSQL_USER : "ecloudcontrol_com"
   ENABLE_HA : "no"
   WP_BACKUP_VERBOSE : 0
   MYSQL_PASSWORD:
      vault: MYSQL_PASSWORD
-  SITE_URL : "https://www.v4.ecloudcontrol.com"
+  SITE_URL : "https://18.118.201.158:31278"
   SITE_TITLE : "CLOUDCONTROL"
   ADMIN_USER : webmaster
   ADMIN_EMAIL : webmaster@ecloudcontrol.com
